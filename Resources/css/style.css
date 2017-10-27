@@ -1,4 +1,4 @@
-
+/*Header*/
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -13,6 +13,7 @@ header {
   align-items: center;
   display: flex;
   width: 100%;
+  padding-left: 16px;
 }
 
 .logo span{
@@ -28,7 +29,7 @@ nav{
 }
 
 nav span{
-  margin: auto 14px;
+  margin: auto 10px;
 }
 
 nav a:link{
@@ -37,4 +38,48 @@ nav a:link{
 
 nav a:visited{
   color: black;
+}
+/*Container*/
+
+.column{
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding-top: 33px;
+  margin-left: 5px;
+  margin-bottom: 40px;
+
+}
+.im p {
+  margin: 0px;
+}
+.article{
+  border: 1px solid black;
+  display: block;
+  align-items: center;
+}
+.large{
+  border: 1px solid black;
+  margin-right: 25px;
+}
+
+.medium{
+  border: 1px solid black;
+  margin-right: 25px;
+}
+.small{
+  border: 1px solid black;
+  margin-right: 25px;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
 }
